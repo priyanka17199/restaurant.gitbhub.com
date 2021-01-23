@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+   overflow-x: hidden;   
+}
+ body{ 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('img/page2.jpg');
+    background-repeat: no-repeat;
+    height:100vh;
+    width: 100vw;
+    background-size: cover;
+}  
+.logo {
+    margin-right: 50px;
+}
+ 
+.nav-link{
+    font-size: 17px;
+    color: white;
+    border-bottom: 2px solid transparent;
+    transition: all 2s linear;
+}
+.nav-item{
+    margin: 10px;
+}
+.nav-link:hover{
+    border-bottom: 2px solid rgb(233, 219, 219) ;
+    transition: all 2s linear;
+}
+
+.main{
+    margin-top: 150px;
+}
+h2.text-center{
+    font-weight: 500;
+    font-size: 40px; 
+    color: rgb(119, 95, 27);
+
+}
+h5.text-center{
+    font-weight: 900;
+    word-spacing: 15px;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+
+}
+.btn:hover{
+background-color: rgb(90, 38, 38);
+}
+
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner img:hover {
+    transform: scale(1.5);
+}
+.footer{
+    background-color: rgb(62, 64, 68);
+    height: 60px;
+    color: white;
+}
+
+.but{
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    border-style: none;
+
+}
+.fa{
+    color: white;
+}

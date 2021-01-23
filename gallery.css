@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    overflow: auto;    
+}
+ body{ 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('img/gallery2.jpg');
+    background-repeat: no-repeat;
+    height:100vh;
+    width: 100vw;
+    background-size: cover;
+}  
+.logo {
+    margin-right: 50px;
+}
+ 
+.nav-link{
+    font-size: 17px;
+    color: white;
+    border-bottom: 2px solid transparent;
+    transition: all 2s linear;
+}
+.nav-item{
+    margin: 10px;
+    color: black;
+}
+.nav-link:hover{
+    border-bottom: 2px solid rgb(233, 219, 219) ;
+    transition: all 2s linear;
+}
+.center{
+    height:100px;
+    width:100px;
+}
